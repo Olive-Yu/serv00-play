@@ -10,7 +10,7 @@
 ## 安装说明
 
 ```s
-bash <(curl -Ls https://github.com/Olive-Yu/serv00-play/blob/main/start.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Olive-Yu/serv00-play/refs/heads/main/start.sh)
 ```
 
 ## 变量说明
