@@ -3156,7 +3156,7 @@ vip_statement() {
 }
 
 getLatestVer() {
-  ver=$(git ls-remote --tags https://github.com/frankiejun/serv00-play.git | awk -F/ '{print $3}' | sort -V | tail -n 1)
+  ver=$(git ls-remote --tags https://github.com/Olive-Yu/serv00-play.git | awk -F/ '{print $3}' | sort -V | tail -n 1)
   echo $ver
 }
 getCurrentVer() {
