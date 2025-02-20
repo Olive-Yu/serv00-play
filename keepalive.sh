@@ -118,7 +118,7 @@ autoUpdate() {
 startNeZhaAgent() {
   local workedir="${installpath}/serv00-play/nezha"
   cd ${workedir}
-  local config="nezha.json"
+  local config="./config.yml"
   if [[ ! -e "$config" ]]; then
     red "未安装哪吒探针，请先进行安装！"
     return 1
